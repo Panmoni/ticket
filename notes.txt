@@ -1,0 +1,96 @@
+00 OP_0
+cf OP_UTXOTOKENCOMMITMENT
+52 OP_2
+7f OP_SPLIT
+78 OP_OVER
+02 (signalling will push 2 bytes next)
+3034 (04)
+87 OP_EQUAL
+63 OP_IF
+78 OP_OVER
+6b OP_TOALTSTACK
+58 OP_8
+7f OP_SPLIT
+78 OP_OVER
+6b OP_TOALTSTACK
+6b OP_TOALTSTACK
+67 OP_ELSE
+78 OP_OVER
+02 (signalling will push 2 bytes next)
+3037 (07)
+87 OP_EQUAL
+63 OP_IF
+78 OP_OVER
+6b OP_TOALTSTACK
+5c OP_12
+7f OP_SPLIT
+78 OP_OVER
+6b OP_TOALTSTACK
+6b OP_TOALTSTACK
+67 OP_ELSE
+78 OP_OVER
+6b OP_TOALTSTACK
+58 OP_8
+7f OP_SPLIT
+78 OP_OVER
+6b OP_TOALTSTACK
+5c OP_12
+7f OP_SPLIT
+78 OP_OVER
+6b OP_TOALTSTACK
+6b OP_TOALTSTACK
+75 OP_DROP
+68 OP_ENDIF
+68 OP_ENDIF
+75 OP_DROP
+75 OP_DROP
+
+
+| Hex Code | Opcode/Description |
+|----------|--------------------|
+| 00       | OP_0               |
+| cf       | OP_UTXOTOKENCOMMITMENT |
+| 52       | OP_2               |
+| 7f       | OP_SPLIT           |
+| 78       | OP_OVER            |
+| 02       | (signalling will push 2 bytes next) |
+| 3034     | (04)               |
+| 87       | OP_EQUAL           |
+| 63       | OP_IF              |
+| 78       | OP_OVER            |
+| 6b       | OP_TOALTSTACK      |
+| 58       | OP_8               |
+| 7f       | OP_SPLIT           |
+| 78       | OP_OVER            |
+| 6b       | OP_TOALTSTACK      |
+| 6b       | OP_TOALTSTACK      |
+| 67       | OP_ELSE            |
+| 78       | OP_OVER            |
+| 02       | (signalling will push 2 bytes next) |
+| 3037     | (07)               |
+| 87       | OP_EQUAL           |
+| 63       | OP_IF              |
+| 78       | OP_OVER            |
+| 6b       | OP_TOALTSTACK      |
+| 5c       | OP_12              |
+| 7f       | OP_SPLIT           |
+| 78       | OP_OVER            |
+| 6b       | OP_TOALTSTACK      |
+| 6b       | OP_TOALTSTACK      |
+| 67       | OP_ELSE            |
+| 78       | OP_OVER            |
+| 6b       | OP_TOALTSTACK      |
+| 58       | OP_8               |
+| 7f       | OP_SPLIT           |
+| 78       | OP_OVER            |
+| 6b       | OP_TOALTSTACK      |
+| 5c       | OP_12              |
+| 7f       | OP_SPLIT           |
+| 78       | OP_OVER            |
+| 6b       | OP_TOALTSTACK      |
+| 6b       | OP_TOALTSTACK      |
+| 75       | OP_DROP            |
+| 68       | OP_ENDIF           |
+| 68       | OP_ENDIF           |
+| 75       | OP_DROP            |
+| 75       | OP_DROP            |
