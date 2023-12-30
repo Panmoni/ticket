@@ -1,0 +1,28 @@
+{
+  "organization": {
+    "name": "Red Canary VPN, incorporated",
+    "uris": {
+      "icon": "ipfs://bafybeicws2uqjbbcie7wvvjrer2fdgimr27xzylmebvdgmt3oeyad2o3zy/redcanarywc.png",
+      "web": "https://www.example.com",
+      "x": "https://x.com/example",
+      "facebook": "https://www.facebook.com/example",
+      "linkedin": "https://www.linkedin.com/company/example"
+    }
+  },
+  "statement": "As of the date of this document, Red Canary VPN, incorporated has received no legal orders that we would be prohibited from disclosing, such as national security letters or gag orders.",
+  "lastUpdated": "2023-12-29",
+  "validUntil": "2024-01-29",
+  "signature": {
+    "type": "PGP",
+    "value": "-----BEGIN PGP SIGNATURE-----\n...\n-----END PGP SIGNATURE-----"
+  },
+  "additionalInformation": {
+    "noEncryptedDataRequests": true,
+    "noBackdoorsInstalled": true,
+    "noUserInformationDisclosed": true
+  },
+  "contactInformation": {
+    "legalDepartmentEmail": "legal@example.com"
+  },
+  "disclaimer": "This warrant canary is provided for informational purposes only and should not be considered legal advice."
+}

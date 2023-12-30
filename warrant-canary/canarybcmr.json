@@ -1,0 +1,62 @@
+{
+  "$schema": "https://cashtokens.org/bcmr-v2.schema.json",
+  "version": { "major": 0, "minor": 1, "patch": 0 },
+  "latestRevision": "2023-12-30T00:00:00.000Z",
+  "registryIdentity": {
+    "name": "Generic Warrant Canary Dapp Token Registry",
+    "description": "An example demonstrating how a metadata registry might publish information about a warrant canary dapp.",
+    "uris": {
+      "icon": "ipfs://bafybeicws2uqjbbcie7wvvjrer2fdgimr27xzylmebvdgmt3oeyad2o3zy/warrantcanaryservice.png",
+      "web": "https://example.com/",
+      "registry": "https://example.com/.well-known/bitcoin-cash-metadata-registry.json"
+    }
+  },
+  "identities": {
+    "762f5b4007005579cad829954db5d6306c5b598ffc04fb9406aee3668af1a2c9": {
+      "2023-12-29T00:00:00.000Z": {
+        "name": "Red Canary VPN, incorporated",
+        "description": "An identity for a fictitious VPN company that is issuing warrant canaries.",
+        "token": {
+          "category": "762f5b4007005579cad829954db5d6306c5b598ffc04fb9406aee3668af1a2c9",
+          "symbol": "REDCANARY-WC",
+          "nfts": {
+            "description": "Warrant canaries issued by the fictitious Red Canary VPN, incorporated.",
+            "fields": {
+              "cid-hash": {
+                "name": "CID Hash",
+                "description": "The SHA256 hash of the IPFS Content Identifier of the warrant canary statement.",
+                "encoding": {
+                  "type": "hex"
+                }
+              }
+            },
+            "parse": {
+              "bytecode": "006b00cf6b",
+              "types": {
+                "": {
+                  "name": "Basic Warrant Canary",
+                  "description": "A basic warrant canary for Red Canary VPN, first issued on Dec 30, 2023.",
+                  "fields": ["cid-hash"],
+                  "uris": {
+                    "icon": "ipfs://bafybeicws2uqjbbcie7wvvjrer2fdgimr27xzylmebvdgmt3oeyad2o3zy/redcanarywc.png",
+                    "web": "https://example.com/warrantcanary.html"
+                  },
+                  "extensions": {
+                    "ipfs-url": "ipfs://bafkreicbw3qeh6h7zf7wo7xhtg6kuh7hahffjydvmreb6lamhidyabxc4i",
+                    "cid-hash": "41B6E043F8FFC97F677EE799BCAA1FE701CA54E07564481F2C0C3A078006E2E2"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "uris": {
+          "icon": "ipfs://bafybeicws2uqjbbcie7wvvjrer2fdgimr27xzylmebvdgmt3oeyad2o3zy/redcanarywc.png",
+          "web": "https://example.com/warrantcanary.html",
+          "support": "https://example.com/support.html"
+        }
+      }
+    }
+  },
+  "license": "CC0-1.0"
+}
